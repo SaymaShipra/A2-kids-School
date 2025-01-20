@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(190, 234, 190);
+}
+
+/* shared styles */
+
+.display-flex {
+  display: flex;
+}
+
+.orange {
+  color: #fea301;
+}
+.sky-blue {
+  color: #01acfd;
+}
+.aqua {
+  color: rgba(5, 212, 223, 1);
+}
+
+.purple {
+  color: rgba(93, 88, 239, 1);
+}
+
+.primary-btn {
+  padding: 10px 47px 10px 47px;
+  background: #fea301;
+  border-radius: 12px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: "Quicksand", serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* nav section styles */
+
+.navbar {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar ul {
+  gap: 32px;
+}
+.logo {
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+
+.logo h3 {
+  color: rgba(17, 17, 17, 1);
+  font-family: "Quicksand", serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar .nav-items a {
+  text-decoration: none;
+}
+.navbar .nav-links {
+  list-style: none;
+}
+
+ul .nav-items a {
+  font-family: "Quicksand", serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 30px;
+}
+.nav-links a:hover {
+  color: black;
+}
+
+/* banner section styles */
+
+/* small device responsive */
+
+@media screen and (max-width: 576px) {
+}
