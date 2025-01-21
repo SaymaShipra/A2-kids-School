@@ -229,6 +229,16 @@ ul .nav-items a {
   margin-top: 52px;
   margin-bottom: 32px;
 }
+.card-2 .elementary {
+  background: url("icon/Vector\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-3 .middle {
+  background: url("icon/Vector\ \(2\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .card-text h4 {
   color: rgb(32, 32, 32);
   font-family: "Quicksand", serif;
@@ -381,6 +391,40 @@ ul .nav-items a {
   line-height: 28.76px;
 }
 
+.stories button {
+  background: #111111;
+  align-content: center;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+marquee {
+  background-color: rgba(254, 161, 1, 0.414);
+}
+
+/* footer section  styles */
+
+/* .footer-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: fit-content;
+  margin: 0 auto;
+  margin-right: 150px;
+  margin-left: 150px;
+  gap: 90px;
+} */
+
+footer {
+  background: rgb(1, 172, 253);
+}
+
+.footer-main {
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  max-width: 1050px;
+  margin-left: 200px;
+}
 /* small device responsive */
 
 @media screen and (max-width: 576px) {
@@ -471,7 +515,37 @@ ul .nav-items a {
     display: block;
   }
   .box-2nd {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-left: 20px;
+    margin: auto;
+    gap: 10px;
   }
+  .box-2nd .box-1 {
+    max-width: 170px;
+    max-height: 184px;
+  }
+  .box-1 img {
+    width: 100%;
+  }
+  .box-text h6 {
+    font-size: 9.13px;
+    line-height: 12.12px;
+
+    position: relative;
+    top: -160px;
+    right: 7px;
+  }
+  .box-1 button {
+    font-size: 9.13px;
+    padding: 5px 6px;
+    position: relative;
+    top: -105px;
+  }
+  /* .footer-main {
+    grid-template-columns: repeat(1, 200px);
+    margin: auto;
+    width: 100%;
+    gap: 20px;
+    padding-left: 20px;
+  } */
 }
