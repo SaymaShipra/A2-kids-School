@@ -110,6 +110,7 @@
   line-height: 30px;
   letter-spacing: 0%;
   text-align: left;
+  cursor: pointer;
 }
 main {
   background: url("assets/bg.png");
