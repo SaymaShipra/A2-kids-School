@@ -20,7 +20,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 2px solid red; */
 }
+/* body {
+  border: 2px solid green;
+} */
 
 /* shared styles */
 
@@ -313,7 +317,7 @@ ul .nav-items a {
   background: rgb(60, 216, 232);
   padding: 14px;
   position: relative;
-  top: -30px;
+  top: -110px;
   left: 20px;
 
   font-size: 15.34px;
@@ -344,6 +348,7 @@ ul .nav-items a {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 38.35px;
+
   margin-top: 58px;
   margin-bottom: 47px;
 }
@@ -358,6 +363,11 @@ ul .nav-items a {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+.box .box-text {
+  position: relative;
+  top: -175px;
+}
 .box .primary-btn {
   border-radius: 47.93px;
   font-size: 15.34px;
@@ -366,7 +376,7 @@ ul .nav-items a {
   padding: 14px;
 
   position: relative;
-  top: -40px;
+  top: -115px;
   left: 30px;
 }
 
@@ -385,6 +395,9 @@ ul .nav-items a {
   font-size: 15.34px;
   font-weight: 700;
   line-height: 28.76px;
+  position: relative;
+  top: -160px;
+  right: 8px;
 }
 
 .stories button {
