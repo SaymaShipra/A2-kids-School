@@ -20,12 +20,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 2px solid red; */
 }
-/* body {
-  box-sizing: border-box;
-  border: 5px solid green;
-} */
 
 /* shared styles */
 
@@ -401,6 +396,7 @@ ul .nav-items a {
 }
 marquee {
   background-color: rgba(254, 161, 1, 0.414);
+  font-size: 1.5rem;
 }
 
 /* footer section  styles */
@@ -475,8 +471,9 @@ footer {
   margin-right: 10px;
 }
 .footer-main {
-  margin-top: 123px;
-  margin-bottom: 124px;
+  padding-top: 123px;
+  padding-bottom: 124px;
+  gap: 200px;
 }
 
 /* small device responsive */
@@ -653,5 +650,106 @@ footer {
   }
   .footer-contain .icon {
     margin-top: 36px;
+  }
+}
+
+/* small device responsive */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .curriculum-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .box {
+    display: none;
+  }
+  .box-1 {
+    display: block;
+  }
+  .box-2nd {
+    grid-template-columns: repeat(3, 275px);
+  }
+
+  .footer-main {
+    grid-template-columns: repeat(1, 600px);
+    margin: auto;
+    width: 100%;
+    gap: 20px;
+    padding-left: 20px;
+  }
+
+  .navbar h3 {
+    display: none;
+  }
+  .nav-items {
+    display: none;
+  }
+  .navbar button {
+    display: none;
+  }
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+  .menu-icon img {
+    width: 50px;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar {
+    padding: 20px 0px 20px 0px;
+    border-bottom: 0.5px solid rgb(254, 163, 1);
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .banner-text {
+    text-align: center;
+  }
+  .banner .banner-text {
+    max-width: 715px;
+    max-height: 700px;
+  }
+
+  .banner .description {
+    font-size: 1.8rem;
+  }
+  .banner-image img {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+  }
+  marquee {
+    font-size: 1.5rem;
+  }
+
+  .footer-contain p {
+    font-size: 1.5rem;
+    margin-top: 22px;
+  }
+  .footer-contain h6 {
+    font-size: 2.75rem;
+    margin-top: 32px;
+  }
+  .footer-contain ul a {
+    font-size: 1.5rem;
+  }
+  .box-1 button {
+    font-size: 9.13px;
+    padding: 2px 4px;
+    position: relative;
+    top: -105px;
+  }
+  .box-text h6 {
+    position: relative;
+    top: -140px;
+    right: 7px;
   }
 }
