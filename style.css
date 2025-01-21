@@ -259,6 +259,7 @@ ul .nav-items a {
   background: #fea301;
   border-radius: 50%;
   color: white;
+  cursor: pointer;
 }
 .arrow {
   justify-content: center;
