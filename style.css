@@ -478,6 +478,9 @@ footer {
   list-style: none;
   margin-bottom: 20px;
 }
+.footer-contain ul li a:hover {
+  color: #111111;
+}
 
 .footer-contain ul a {
   text-decoration: none;
@@ -609,6 +612,7 @@ footer {
     max-width: 178px;
     max-height: 194px;
   }
+
   .box-1 img {
     width: 100%;
     object-fit: cover;
